@@ -1,0 +1,16 @@
+﻿  w3_p1.cpp
+C:\Users\Stevia\Desktop\School\WIP or Finished OOP Workshops\OOP345\WS03\w3_p1.cpp(34,9): error C2974: 'sdds::Set': invalid template argument for 'N', type expected
+C:\Users\Stevia\Desktop\School\WIP or Finished OOP Workshops\OOP345\WS03\Set.h(7): message : see declaration of 'sdds::Set'
+C:\Users\Stevia\Desktop\School\WIP or Finished OOP Workshops\OOP345\WS03\w3_p1.cpp(34,58): error C2133: 'ticketSales': unknown size
+C:\Users\Stevia\Desktop\School\WIP or Finished OOP Workshops\OOP345\WS03\w3_p1.cpp(34,47): error C2512: 'sdds::Set': no appropriate default constructor available
+C:\Users\Stevia\Desktop\School\WIP or Finished OOP Workshops\OOP345\WS03\Set.h(7,2): message : see declaration of 'sdds::Set'
+C:\Users\Stevia\Desktop\School\WIP or Finished OOP Workshops\OOP345\WS03\w3_p1.cpp(51,69): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'sdds::Pair<int,std::string>'
+C:\Users\Stevia\Desktop\School\WIP or Finished OOP Workshops\OOP345\WS03\w3_p1.cpp(51,69): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\Stevia\Desktop\School\WIP or Finished OOP Workshops\OOP345\WS03\w3_p1.cpp(59,43): error C2662: 'size_t sdds::Set<N,T>::size(void) const': cannot convert 'this' pointer from 'sdds::Set' to 'const sdds::Set<N,T> &'
+C:\Users\Stevia\Desktop\School\WIP or Finished OOP Workshops\OOP345\WS03\w3_p1.cpp(59,43): message : Reason: cannot convert from 'sdds::Set' to 'const sdds::Set<N,T>'
+C:\Users\Stevia\Desktop\School\WIP or Finished OOP Workshops\OOP345\WS03\w3_p1.cpp(59,26): message : Conversion requires a second user-defined-conversion operator or constructor
+C:\Users\Stevia\Desktop\School\WIP or Finished OOP Workshops\OOP345\WS03\Set.h(12,10): message : see declaration of 'sdds::Set<N,T>::size'
+C:\Users\Stevia\Desktop\School\WIP or Finished OOP Workshops\OOP345\WS03\w3_p1.cpp(60,34): error C2662: 'const T &sdds::Set<N,T>::get(size_t)': cannot convert 'this' pointer from 'sdds::Set' to 'sdds::Set<N,T> &'
+C:\Users\Stevia\Desktop\School\WIP or Finished OOP Workshops\OOP345\WS03\w3_p1.cpp(60,34): message : Reason: cannot convert from 'sdds::Set' to 'sdds::Set<N,T>'
+C:\Users\Stevia\Desktop\School\WIP or Finished OOP Workshops\OOP345\WS03\w3_p1.cpp(60,17): message : Conversion requires a second user-defined-conversion operator or constructor
+C:\Users\Stevia\Desktop\School\WIP or Finished OOP Workshops\OOP345\WS03\Set.h(13,12): message : see declaration of 'sdds::Set<N,T>::get'
